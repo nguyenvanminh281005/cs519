@@ -34,11 +34,11 @@ SỬ DỤNG ZERO-SHOT DỰA TRÊN KHÔNG GIAN TÌM KIẾM ĐA KIẾN TRÚC**
 * **YouTube Presentation Video**:
   👉 *(Updating)*
 * **Slides**:
-  👉 *(Updating)*
+  👉 [https://github.com/nguyenvanminh281005/cs519/blob/main/Slides.pdf](Slides.pdf)
 * **Proposal**:
-  👉 *(Updating)*
+  👉 [https://github.com/nguyenvanminh281005/cs519/blob/main/Proposal.pdf](Proposal.pdf)
 * **Poster**:
-  👉 *(Updating)*
+  👉 [https://github.com/nguyenvanminh281005/cs519/blob/main/Poster.pdf](Poster.pdf)
 
 ---
 
