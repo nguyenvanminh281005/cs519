@@ -29,16 +29,16 @@ SỬ DỤNG ZERO-SHOT DỰA TRÊN KHÔNG GIAN TÌM KIẾM ĐA KIẾN TRÚC**
 ## 🔗 Project Links
 
 * **GitHub Repository**:
-  👉 [https://github.com/nguyenvanminh281005/cs519](https://github.com/nguyenvanminh281005/cs519)
+  👉 [CS519.Q11.KHTN – Scientific Research Methodology](https://github.com/nguyenvanminh281005/cs519)
 
 * **YouTube Presentation Video**:
   👉 *(Updating)*
 * **Slides**:
-  👉 [https://github.com/nguyenvanminh281005/cs519/blob/main/Slides.pdf](Slides.pdf)
+  👉 [Slide](https://github.com/nguyenvanminh281005/cs519/blob/main/Slides.pdf)
 * **Proposal**:
-  👉 [https://github.com/nguyenvanminh281005/cs519/blob/main/Proposal.pdf](Proposal.pdf)
+  👉 [Proposal](https://github.com/nguyenvanminh281005/cs519/blob/main/Proposal.pdf)
 * **Poster**:
-  👉 [https://github.com/nguyenvanminh281005/cs519/blob/main/Poster.pdf](Poster.pdf)
+  👉 [Poster](https://github.com/nguyenvanminh281005/cs519/blob/main/Poster.pdf)
 
 ---
 
