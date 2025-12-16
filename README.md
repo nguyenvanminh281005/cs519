@@ -15,7 +15,7 @@ SỬ DỤNG ZERO-SHOT DỰA TRÊN KHÔNG GIAN TÌM KIẾM ĐA KIẾN TRÚC**
 
 ## 📌 Project Title (English)
 
-**Zero-shot Neural Architecture Search in Hybrid Search Space**
+**ZERO-SHOT NEURAL ARCHITECTURE SEARCH IN HYBRID SEARCH SPACE**
 
 ---
 
