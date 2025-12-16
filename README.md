@@ -21,8 +21,8 @@ SỬ DỤNG ZERO-SHOT DỰA TRÊN KHÔNG GIAN TÌM KIẾM ĐA KIẾN TRÚC**
 
 ## 👨‍🎓 Team Members
 
-* **Nguyễn Văn Minh** – 23520945
-* **Nguyễn Văn Hồng Thái** – 23521418
+* [**Nguyễn Văn Minh**](https://www.facebook.com/nguyenvanminh281005) – 23520945
+* [**Nguyễn Văn Hồng Thái**](https://www.facebook.com/hongthai1105z) – 23521418
 
 ---
 
