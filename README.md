@@ -33,6 +33,12 @@ SỬ DỤNG ZERO-SHOT DỰA TRÊN KHÔNG GIAN TÌM KIẾM ĐA KIẾN TRÚC**
 
 * **YouTube Presentation Video**:
   👉 *(Updating)*
+* **Slides**
+  👉 *(Updating)*
+* **Proposal**
+  👉 *(Updating)*
+* **Poster**
+  👉 *(Updating)*
 
 ---
 
