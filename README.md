@@ -63,7 +63,7 @@ Xây dựng một pipeline NAS hiệu quả, giảm chi phí tính toán và có
 
 ### Mục tiêu cụ thể
 
-* Xây dựng **pipeline NAS zero-shot** dựa trên **BossNAS++** kết hợp **ElasticViT**
+* Xây dựng **pipeline NAS zero-shot** dựa trên **BossNAS++** kết hợp **ElasticViT** và **HCT-Net**
 * Tối ưu hóa kiến trúc theo:
 
   * Độ sâu (depth)
@@ -100,7 +100,7 @@ Hạn chế của Gradient-based NAS:
 
 ---
 
-### 2️⃣ Zero-shot NAS – BossNAS / BossNAS++
+### 2️⃣ Zero-shot NAS – BossNAS / BossNAS++ / HCT-Net
 
 Để khắc phục các hạn chế trên, đề tài lựa chọn **Zero-shot NAS (BossNAS)** với các ưu điểm:
 
@@ -135,7 +135,6 @@ Phiên bản **BossNAS++** được sử dụng để cải thiện khả năng 
 
 ---
 
-## 📚 References
 ## 📚 References
 
 1. White, C. et al., "Neural Architecture Search: Insights from 1000 Papers", arXiv preprint arXiv:2301.08727, 2023.
