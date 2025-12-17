@@ -6,6 +6,11 @@
 
 <h1 align="center"><b>CS519.Q11.KHTN – Scientific Research Methodology</b></h1>
 
+## 👨‍🏫 Instructor
+
+* **Lê Đình Duy** – [duyld@uit.edu.vn](mailto:duyld@uit.edu.vn)
+
+
 ---
 
 ## 📌 Project Title (Vietnamese)
