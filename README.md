@@ -8,7 +8,7 @@
 
 ## 👨‍🏫 Instructor
 
-* **Lê Đình Duy** – [duyld@uit.edu.vn](mailto:duyld@uit.edu.vn)
+* **Lê Đình Duy** – [ldduy@uit.edu.vn](mailto:ldduy@uit.edu.vn)
 
 
 ---
