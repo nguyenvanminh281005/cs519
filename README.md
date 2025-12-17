@@ -8,26 +8,25 @@
 
 ## 👨‍🏫 Instructor
 
-* **Lê Đình Duy** – [ldduy@uit.edu.vn](mailto:ldduy@uit.edu.vn)
+* [**Lê Đình Duy**](https://www.facebook.com/inhduyle.507900) – [ldduy@uit.edu.vn](mailto:ldduy@uit.edu.vn)
 
 
 ---
 
 ## 📌 Project Title (Vietnamese)
 
-**XÂY DỰNG PHƯƠNG THỨC TÌM KIẾM MẠNG NƠ-RON ĐA KIẾN TRÚC TỰ ĐỘNG (NAS)
-SỬ DỤNG ZERO-SHOT DỰA TRÊN KHÔNG GIAN TÌM KIẾM ĐA KIẾN TRÚC**
+**XÂY DỰNG PHƯƠNG THỨC TÌM KIẾM MẠNG NƠ-RON TỰ ĐỘNG (NAS) SỬ DỤNG ZERO-SHOT TRÊN KHÔNG GIAN TÌM KIẾM ĐA KIẾN TRÚC**
 
 ## 📌 Project Title (English)
 
-**ZERO-SHOT NEURAL ARCHITECTURE SEARCH IN HYBRID SEARCH SPACE**
+**ZERO-SHOT NEURAL ARCHITECTURE SEARCH (NAS) METHOD BASED ON A MULTI-ARCHITECTURE SEARCH SPACE**
 
 ---
 
 ## 👨‍🎓 Team Members
 
-* [**Nguyễn Văn Minh**](https://www.facebook.com/nguyenvanminh281005) – 23520945
-* [**Nguyễn Văn Hồng Thái**](https://www.facebook.com/hongthai1105z) – 23521418
+* [**Nguyễn Văn Minh**](https://www.facebook.com/nguyenvanminh281005) – [23520945](mailto:23520945@gm.uit.edu.vn)
+* [**Nguyễn Văn Hồng Thái**](https://www.facebook.com/hongthai1105z) – [23521418](mailto:2351418@gm.uit.edu.vn)
 
 ---
 
@@ -147,5 +146,5 @@ Phiên bản **BossNAS++** được sử dụng để cải thiện khả năng 
 ---
 
 <p align="center">
-  <i>CS519 – University of Information Technology (UIT)</i>
+  <i>University of Information Technology (UIT)</i>
 </p>
