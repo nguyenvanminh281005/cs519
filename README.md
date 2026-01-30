@@ -15,11 +15,11 @@
 
 ## 📌 Project Title (Vietnamese)
 
-**XÂY DỰNG PHƯƠNG THỨC TÌM KIẾM MẠNG NƠ-RON TỰ ĐỘNG (NAS) SỬ DỤNG ZERO-SHOT TRÊN KHÔNG GIAN TÌM KIẾM ĐA KIẾN TRÚC**
+**XÂY DỰNG PHƯƠNG THỨC TÌM KIẾM MẠNG NƠ-RON TỰ ĐỘNG (NAS) SỬ DỤNG ZERO-SHOT TRÊN KHÔNG GIAN TÌM KIẾM LAI (CNN + TRANSFORMER)**
 
 ## 📌 Project Title (English)
 
-**ZERO-SHOT NEURAL ARCHITECTURE SEARCH (NAS) METHOD BASED ON A MULTI-ARCHITECTURE SEARCH SPACE**
+**ZERO-SHOT NEURAL ARCHITECTURE SEARCH (NAS) METHOD BASED ON A HYBRID SEARCH SPACE (CNN + TRANSFORMER)**
 
 ---
 
@@ -48,11 +48,8 @@
 
 ## 🧠 Abstract
 
-Thiết kế kiến trúc mạng nơ-ron hiệu quả đòi hỏi nhiều kinh nghiệm và chi phí tính toán lớn.
-Các phương pháp Neural Architecture Search (NAS) truyền thống thường phải huấn luyện đầy đủ nhiều kiến trúc ứng viên, dẫn đến thời gian tìm kiếm kéo dài và tiêu tốn tài nguyên.
-
-Trong đề tài này, chúng tôi tập trung xây dựng một **phương thức NAS sử dụng Zero-shot**, cho phép **ước lượng hiệu suất kiến trúc mà không cần huấn luyện**, dựa trên các chỉ số đánh giá thay thế (zero-shot proxies). Đặc biệt, phương pháp được mở rộng trên **không gian tìm kiếm đa kiến trúc (hybrid)**, kết hợp **CNN và Transformer**, nhằm tận dụng ưu điểm của cả hai trong các bài toán thị giác máy tính.
-
+Neural Architecture Search (NAS) đã đạt được những tiến bộ đáng kể trong việc tự động hóa thiết kế kiến trúc mạng nơ-ron. Tuy nhiên, các phương pháp NAS truyền thống vẫn gặp phải ba thách thức chính: (1) Chi phí tính toán khổng lồ do phải huấn luyện và đánh giá hàng ngàn kiến trúc tiềm năng; (2) Thiên lệch (bias) trong quá trình huấn luyện siêu mạng (supernet) dẫn đến đánh giá sai lệch hiệu suất các kiến trúc con; (3) Khó khăn trong việc tối ưu đồng thời cả độ chính xác và độ trễ trên các thiết bị phần cứng khác nhau.
+Nghiên cứu này đề xuất một phương pháp NAS zero-shot dựa trên  không gian tìm kiếm đa kiến trúc (hybrid CNN-Transformer), kế thừa và mở rộng các phương pháp tiên tiến BossNAS, BossNAS++ và HCT-Net. 
 ---
 
 ## 🎯 Research Objectives
@@ -63,17 +60,12 @@ Xây dựng một pipeline NAS hiệu quả, giảm chi phí tính toán và có
 
 ### Mục tiêu cụ thể
 
-* Xây dựng **pipeline NAS zero-shot** dựa trên **BossNAS++** kết hợp **ElasticViT** và **HCT-Net**
-* Tối ưu hóa kiến trúc theo:
+- Mục tiêu 1: Phân tích hệ thống các phương pháp Neural Architecture Search (NAS), tập trung vào gradient-based NAS và zero-shot NAS, nhằm làm rõ ưu điểm, hạn chế và xác định khoảng trống nghiên cứu khi áp dụng trên không gian tìm kiếm đa kiến trúc (hybrid CNN-Transformer).
 
-  * Độ sâu (depth)
-  * Độ rộng (width)
-  * Độ phân giải (resolution)
-* Ứng dụng phương pháp vào **bài toán phân đoạn ảnh khối u (medical image segmentation)** nhằm:
+- Mục tiêu 2: Xây dựng và thử nghiệm phương pháp NAS zero-shot dựa trên không gian tìm kiếm đa kiến trúc, kế thừa và điều chỉnh các ý tưởng từ BossNAS, BossNAS++ và HCT-Net, đặc biệt phát triển bộ dự đoán độ trễ thích nghi (MHLP) với khả năng meta-learning, hướng tới giảm chi phí huấn luyện và tăng tính đa dạng kiến trúc.
 
-  * Giảm độ phức tạp mô hình
-  * Tăng độ chính xác
-  * Định nghĩa một **không gian tìm kiếm hybrid thực sự**
+- Mục tiêu 3: Đánh giá hiệu quả của phương pháp đề xuất thông qua các tiêu chí định lượng (độ chính xác, chi phí tìm kiếm, độ ổn định kiến trúc, khả năng thích nghi với phần cứng mới), đồng thời khảo sát tiềm năng ứng dụng của NAS hybrid trong các bài toán thực tế, ưu tiên lĩnh vực y tế.
+
 
 ---
 
@@ -90,7 +82,7 @@ Bài toán NAS được xác định qua ba thành phần chính:
 Các chiến lược tìm kiếm phổ biến:
 
 * **Black-box Optimization** (RL, EA, Bayesian, MCTS): chính xác nhưng tốn thời gian
-* **Gradient-based NAS** (DARTS, ENAS, OFA): nhanh nhưng thiếu ổn định
+* **One-shot NAS** (DARTS, ENAS, OFA): nhanh nhưng thiếu ổn định
 
 Hạn chế của Gradient-based NAS:
 
