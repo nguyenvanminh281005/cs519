@@ -50,6 +50,7 @@
 
 Neural Architecture Search (NAS) đã đạt được những tiến bộ đáng kể trong việc tự động hóa thiết kế kiến trúc mạng nơ-ron. Tuy nhiên, các phương pháp NAS truyền thống vẫn gặp phải ba thách thức chính: (1) Chi phí tính toán khổng lồ do phải huấn luyện và đánh giá hàng ngàn kiến trúc tiềm năng; (2) Thiên lệch (bias) trong quá trình huấn luyện siêu mạng (supernet) dẫn đến đánh giá sai lệch hiệu suất các kiến trúc con; (3) Khó khăn trong việc tối ưu đồng thời cả độ chính xác và độ trễ trên các thiết bị phần cứng khác nhau.
 Nghiên cứu này đề xuất một phương pháp NAS zero-shot dựa trên  không gian tìm kiếm đa kiến trúc (hybrid CNN-Transformer), kế thừa và mở rộng các phương pháp tiên tiến BossNAS, BossNAS++ và HCT-Net. 
+
 ---
 
 ## 🎯 Research Objectives
