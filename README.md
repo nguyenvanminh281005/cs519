@@ -36,7 +36,7 @@
   👉 [CS519.Q11.KHTN – Scientific Research Methodology](https://github.com/nguyenvanminh281005/cs519)
 
 * **YouTube Presentation Video**:
-  👉 [Youtube](https://www.youtube.com/watch?v=wGjmmFUMoXM)
+  👉 [Youtube](https://youtu.be/wBSK-z4pPD0)
 * **Slides**:
   👉 [Slide](https://github.com/nguyenvanminh281005/cs519/blob/main/Slides.pdf)
 * **Proposal**:
